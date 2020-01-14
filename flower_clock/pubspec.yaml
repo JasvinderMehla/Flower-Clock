@@ -1,0 +1,45 @@
+name: digital_clock
+description: Digital clock.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_clock_helper:
+    path: ../flutter_clock_helper
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: KosugiMaru
+      fonts:
+        - asset: assets/Fonts/KosugiMaru-Regular.ttf
+    - family: Alatsi
+      fonts:
+        - asset: assets/Fonts/Alatsi-Regular.ttf
+  assets:
+    - assets/petal.png
+    - assets/Center.png
+    - assets/petalb.png
+    - assets/petall.png
+    - assets/petalr.png
+    - assets/petalrt.png
+    - assets/petallt.png
+    - assets/petalrb.png
+    - assets/petallb.png
+    - assets/P1.png
+    - assets/P2.png
+    - assets/P3.png
+    - assets/P4.png
+    - assets/P5.png
+    - assets/P6.png
+    - assets/P7.png
+    - assets/P8.png
